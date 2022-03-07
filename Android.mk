@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), gt5note10wifi)
+ifeq ($(TARGET_DEVICE), gt5note10lte)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
